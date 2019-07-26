@@ -1394,7 +1394,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PROJECT_DIR}/../../shared/common/build/tools/update_podspec_headers.sh\" -s smartsync";
+			shellScript = "\"../../shared/common/build/tools/update_podspec_headers.sh\" -s smartsync\n";
 		};
 		CEAAAE79195A184100CBBFE9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;

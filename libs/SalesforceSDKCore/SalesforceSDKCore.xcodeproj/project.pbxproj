@@ -2629,7 +2629,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PROJECT_DIR}/../../shared/common/build/tools/update_podspec_headers.sh\" -s sdkcore\n";
+			shellScript = "\"../../shared/common/build/tools/update_podspec_headers.sh\" -s sdkcore\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

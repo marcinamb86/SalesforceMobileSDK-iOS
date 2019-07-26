@@ -703,7 +703,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PROJECT_DIR}/../../shared/common/build/tools/update_podspec_headers.sh\" -s sdkanalytics\n";
+			shellScript = "\"../../shared/common/build/tools/update_podspec_headers.sh\" -s sdkanalytics\n";
 		};
 		CE2B8C0D1CE91FD400C6FC6A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
